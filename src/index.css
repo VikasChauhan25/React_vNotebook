@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url("Image/email-pattern.png");
+  background-size: contain;
+}
+.blur_bg{
+  padding: 5%;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 12px;
+  border: 1px solid rgba(209, 213, 219, 0.3);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+i{
+  cursor: pointer;
+}
+.container{
+  position: relative;
+}
+.foot{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.image img{
+  width: 70%;
+}
+.fontAwe{
+  margin: 0 1rem 1rem 0;
+  transition: 0.3s;
+}
+.fontAwe:hover{
+  cursor: pointer;
+  transform: scale(1.05);
+}
